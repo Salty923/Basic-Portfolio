@@ -3,13 +3,14 @@
 <head>
 	<title>Scott Saltzman</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+
 	<header>
-		<h1 class="logo">Scott Saltzman</h1>
+		<h1 id="logo">Scott Saltzman</h1>
 		<nav>
-			<ul>
+			<ul class="nav_bar">
 				<li><a href="index.html">About</a></li>
 				<li><a href="Portfolio.html">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
@@ -18,27 +19,52 @@
 			
 	</header>
 
+<div class="wrapper">
+
 	<main>
 
-		<h1>About Me</h1>
+	<div class="content">
 
-		<img src="assets/images/me2.jpg">
+		<div class="about">
+			<h1>About Me</h1>
+		</div>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra nisi magna, sed fringilla dolor pellentesque auctor. Curabitur sodales lorem eget ipsum convallis elementum. Nunc at nunc sit amet ligula fermentum viverra. Cras blandit mauris nec dapibus finibus. Cras venenatis luctus pharetra. Aenean eget convallis ligula. Suspendisse placerat mi vel sapien semper, et pulvinar ligula aliquet. Vestibulum eget massa quis leo efficitur congue nec vel eros. Nunc et molestie augue, vel eleifend leo. Quisque faucibus in ligula sed dignissim. Duis sit amet sollicitudin metus, vel auctor neque.
-		</p>
+		<div class="selfie">	
+			<img alt="Photo Scott Saltzman" src="assets/images/me2.jpg">
+		</div>
+
+		
+		<div class="bio">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra nisi magna, sed fringilla dolor pellentesque auctor. Curabitur sodales lorem eget ipsum convallis elementum. Nunc at nunc sit amet ligula fermentum viverra. Cras blandit mauris nec dapibus finibus. Cras venenatis luctus pharetra. Aenean eget convallis ligula. Suspendisse placerat mi vel sapien semper, et pulvinar ligula aliquet. Vestibulum eget massa quis leo efficitur congue nec vel eros. Nunc et molestie augue, vel eleifend leo. Quisque faucibus in ligula sed dignissim. Duis sit amet sollicitudin metus, vel auctor neque.
+			</p>
+		</div>
+
+	</div>
+
 
 
 	<div class="connect">
 
-		<h2>Connect with Me</h2>
-		<a class="social" href="https://github.com/Salty923" target="new"><img src="assets/images/github.png"></a> 
-		<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img src="assets/images/linkedin.png"></a> 
-		<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img src="assets/images/twitter.png"></a> 
+		<h2 class="text_center">Connect with Me</h2>
+
+		<div class="icon">
+			<a class="social" href="https://github.com/Salty923" target="new"><img alt="github logo" src="assets/images/github.png"></a> 
+		</div>
+
+		<div class="icon">
+			<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img alt="linkedin logo" src="assets/images/linkedin.png"></a> 
+		</div>
+		
+		<div class="icon">
+			<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img alt="twitter logo" src="assets/images/twitter.png"></a> 
+		</div>
 
 	</div>
 		
 
 	</main>
+
+</div>	
 	
 	<footer>
 		<p class="foot">@Copyright 2017 Scott Saltzman</p>
