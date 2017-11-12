@@ -7,51 +7,64 @@
 </head>
 <body>
 
-
 	<header>
-		<h1 class="logo">Scott Saltzman</h1>
+		<h1 id="logo">Scott Saltzman</h1>
 		<nav>
-			<ul>
-				<li><a href="index.html">About</a></li>
+			<ul class="nav_bar">
+				<li style="border-right: solid #777777 2px"><a href="index.html">About</a></li>
 				<li><a href="Portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li style="border-left: solid #777777 2px"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 			
 	</header>
 
-	<main>
+<main>
 
-		<h1>Contact</h1>
+<div class="width">
+
+	<div class="content">
+
+			<h1 class="about">Contact</h1>
 
 			<form>
-  				First name:<br>
-  				<input type="text" name="firstname">
-  				<br>
-  				Email:<br>
-  				<input type="text" name="lastname">
-  				<br>
-  				Message:<br>
-  				<textarea rows="4" cols="50" name="comment" form="usrform">
-				Enter text here...</textarea>
-				<br>
-				  <input type="submit" value="Submit">
-			</form> 
+				Name<br>
+				<input type="text" placeholder="John Smith" name=""><br>
+				Email<br>
+				<input type="text" placeholder="example@gmail.com"name=""><br>
+				Message<br>
+				<textarea name="" rows="20" cols="60"></textarea><br>
+				<input class="submit" ="submit" value="Submit" name="">
 
-			
+			</form>
+		
 
+		
+	</div>
 
 	<div class="connect">
 
-		<h2>Connect with Me</h2>
-		<a href="https://github.com/Salty923" target="new"><img class="icon" src="assets/images/github.png"></a> 
-		<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img src="assets/images/linkedin.png"></a> 
-		<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img src="assets/images/twitter.png"></a> 
+		<h2 class="text_center">Connect with Me</h2>
+
+		<div class="icon">
+			<a class="social" href="https://github.com/Salty923" target="new"><img alt="github logo" src="assets/images/github.png"></a> 
+		</div>
+
+		<div class="icon">
+			<a class="social" href="https://www.linkedin.com/in/scott-saltzman-33949b56/" target="new"><img alt="linkedin logo" src="assets/images/linkedin.png"></a> 
+		</div>
+		
+		<div class="icon">
+			<a class="social" href="https://twitter.com/saltzman_scott" target="new"><img alt="twitter logo" src="assets/images/twitter.png"></a> 
+		</div>
 
 	</div>
+</div>
 		
 
 	</main>
+
+</div>	
 	
 	<footer>
 		<p class="foot">@Copyright 2017 Scott Saltzman</p>
