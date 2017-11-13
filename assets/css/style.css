@@ -32,7 +32,8 @@ h1{
 }
 
 h2{
-	border-bottom:solid #cccccc 2px;
+	border-bottom:solid #cccccc 1px;
+	font-size: 22px;
 	color: #4aaaa5;
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, "Times_New_Roman", serif;
@@ -144,6 +145,7 @@ form{
 	width: 60px;
 	height: 60px;
 	display: inline-block;
+	padding-left: 5px;
 }
 
 .icon img {
@@ -194,3 +196,41 @@ form{
 	padding-top: 10px;
 	color: grey;
 }
+
+.p1{
+	float: left;
+	width: 50%;
+	height: auto;
+	padding: 30px;
+}
+
+.p1 img{
+	z-index: 100;
+	position: relative;
+	width: 100%;
+	border-radius: 15px;
+	border:solid #cccccc 1px;
+}
+
+.label{
+	position: relative;
+	top: 240px;
+	z-index: 200;
+	background-color: #4aaaa5;
+	height: 60px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
