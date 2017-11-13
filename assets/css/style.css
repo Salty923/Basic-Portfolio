@@ -167,8 +167,6 @@ form{
 
 .selfie img{
 	width: 100%;
-	/*max-width: 200px;*/
-	/*height:auto;*/
 	border-radius: 30px;
 }
 
@@ -190,6 +188,11 @@ form{
 	color: #ffffff;
 	text-align: center;
 	font-size: 1.2em;
+	transition: background-color .5s;
+}
+
+.submit:hover{
+	background-color: green;
 }
 
 .text_center{
