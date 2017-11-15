@@ -21,7 +21,7 @@ li{
 }
 
 header{
-	height: 80px;
+	height: 60px;
 	margin:0px 0px 30px 0px;
 	padding: 0;
 	background-color: #ffffff;
@@ -104,24 +104,26 @@ form{
 }
 
 #logo{
-	height: 80px;
+	height: 60px;
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 20px 20px 20px 20px;
+	padding: 10px 20px 20px 20px;
 	margin-left: 200px;
 	border-radius: 5px;
 	margin-top: 0px;	
 }
 
 .about{
-	padding: 10px 20px 5px 20px;
+	margin: 6px 10px 0px 10px;
+	padding: 10px 20px 10px 20px;
 }
 
 .nav_bar{
 	float: right;
 	display: inline-block;
 	vertical-align: middle;
+	margin-top: 18px;
 }
 
 .nav_bar li{
@@ -146,7 +148,7 @@ form{
 	width: 270px;
 	background-color: white;
 	float: right;
-	padding: 30px;
+	padding: 12px;
 	border-radius: 15px;
 	border:solid #cccccc 2px;
 }
@@ -161,6 +163,7 @@ form{
 .icon img {
 	width: 100%;
 	height: auto;
+	margin-top: 10px;
 }
 
 .selfie {
@@ -176,7 +179,7 @@ form{
 }
 
 .bio{
-	padding: 1px 20px 20px 20px ;
+	padding: 10px 20px 20px 20px ;
 }
 
 .left {
@@ -202,6 +205,7 @@ form{
 
 .text_center{
 	text-align: center;
+	padding:10px;
 }
 
 .foot{
@@ -238,6 +242,10 @@ form{
 
 .stick{
 	position: sticky;
+}
+
+.logos{
+	margin-left: 25px;
 }
 
 
